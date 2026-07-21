@@ -64,15 +64,7 @@ Payments	                      Actual payment transactions
 
 ## Data Model
 
-Accounts
-     │
-     ├──────── Phone Numbers
-     │
-     ├──────── Call Interactions
-                     │
-                     ├──────── Promise To Pay
-                                     │
-                                     └──────── Payments
+<img width="1536" height="1024" alt="ER Diagram" src="https://github.com/user-attachments/assets/555b6e29-07ce-447a-bd89-fa4e84139bf2" />
 
 ## Dashboard Pages
 
@@ -149,18 +141,6 @@ Detailed payment and promise analysis including:
 - Broken Promise-to-Pay history is a strong indicator of future collection risk.
 - High outstanding balances combined with poor payment history require higher dialing priority.
 - Collection performance varies across collection stages.
-
-## Repository Structure
-
-Telecom-Collections-Analytics
-│
-├── Dataset
-├── Documentation
-├── Power BI
-├── Python
-├── SQL
-├── Dashboard Screenshots
-└── README.md
 
 ## How to Run
 1) Generate the synthetic data using the Python scripts (or use the provided CSV files).
